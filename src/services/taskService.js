@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/tasks";
+const API_URL = "https://turbo-fishstick-v7vqvxv6x52pww6-3000.app.github.dev/tasks";
 
 export const getTasks = () => axios.get(API_URL);
 export const getTaskById = (id) => axios.get(`${API_URL}/${id}`);

@@ -1,35 +1,26 @@
 # rbb-task-api
 
-This template should help get you started developing with Vue 3 in Vite.
+Esta plantilla debería ayudarte a comenzar a desarrollar con Vue 3 en Vite.
 
-## Recommended IDE Setup
+## Configuración recomendada para el IDE
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Customize configuration
+## Personalizar configuración
 
 See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Project Setup
+## Configuración del proyecto
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Compilar y recargar automáticamente durante el desarrollo
 
 ```sh
 npm run dev
+npm run backend
 ```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+### Notas Importantes
+Cuando ejecutes el backend asegurate de convertirlo en público, de lo contrario no podrás hacer nada desde el frontend.
